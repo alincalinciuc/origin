@@ -23,7 +23,7 @@
           {
             "name": "web",
             "protocol": "TCP",
-            "port": 5432,
+            "port": 15432,
             "targetPort": 8080,
             "nodePort": 0
           }
@@ -280,7 +280,7 @@
           {
             "name": "db",
             "protocol": "TCP",
-            "port": 5434,
+            "port": 15434,
             "targetPort": 3306,
             "nodePort": 0
           }
